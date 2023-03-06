@@ -46,6 +46,9 @@ class _MemberListState extends State<MemberList> {
   TextEditingController txtMonumberController = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    final screenHeight = MediaQuery.of(context).size.height;
+    final screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
       backgroundColor: colorGradiant1,
       appBar: AppBar(
@@ -66,7 +69,7 @@ class _MemberListState extends State<MemberList> {
               membercontainer(
                 h: MediaQuery.of(context).size.height / 3.5,
                 w: MediaQuery.of(context).size.width / 1.1,
-                marginbottom: 20,
+                marginbottom: 10,
                 margintop: 20,
                 paddingLeft: 12,
                 marginright: 1,
@@ -147,8 +150,8 @@ class _MemberListState extends State<MemberList> {
                     ),
                     Row(
                       children: [
-                        const SizedBox(
-                          width: 45,
+                        SizedBox(
+                          width: screenWidth * 0.1285,
                         ),
                         GestureDetector(
                           onTap: () {
@@ -213,8 +216,8 @@ class _MemberListState extends State<MemberList> {
                         )
                       ],
                     ),
-                    const SizedBox(
-                      height: 10,
+                    SizedBox(
+                      height: screenHeight * 0.01333,
                     ),
                     textFields(
                         color: colorGradiant1,
@@ -286,8 +289,8 @@ class _MemberListState extends State<MemberList> {
                         children: [
                           Row(children: [
                             membercontainer(
-                              h: 20,
-                              w: 20,
+                              h: screenHeight * 0.02666,
+                              w: screenWidth * 0.057142,
                               child: const Image(
                                 image: AssetImage(imgPerson),
                               ),
@@ -299,8 +302,8 @@ class _MemberListState extends State<MemberList> {
                           Row(
                             children: [
                               membercontainer(
-                                h: 20,
-                                w: 20,
+                                h: screenHeight * 0.02666,
+                                w: screenWidth * 0.057142,
                                 child: const Image(
                                   image: AssetImage(imgGmail),
                                 ),
@@ -313,8 +316,8 @@ class _MemberListState extends State<MemberList> {
                           Row(
                             children: [
                               membercontainer(
-                                h: 20,
-                                w: 20,
+                                h: screenHeight * 0.02666,
+                                w: screenWidth * 0.057142,
                                 child: const Image(
                                   image: AssetImage(imgPhone),
                                 ),
@@ -349,8 +352,8 @@ class _MemberListState extends State<MemberList> {
                                   );
                                 }),
                                 child: membercontainer(
-                                  h: 20,
-                                  w: 20,
+                                  h: screenHeight * 0.02666,
+                                  w: screenWidth * 0.057142,
                                   child: const Image(
                                     image: AssetImage(imgDelete),
                                     height: 20,

@@ -37,3 +37,12 @@ Color colorPass = HexColor('#000000');
 Color button1 = HexColor('#4963dc');
 Color containercolor = HexColor('#4963dc').withOpacity(0.3);
 Color contaner = HexColor('#ffffff');
+//compalin
+//helpdesk
+Color colorBackGroundNew = HexColor('effbff');
+Color colorBackGroundTicket = HexColor('f7f3f5');
+Color colorNew = HexColor('32a483');
+Color colorTicket = HexColor('a4a2a4');
+Color colorTicketNumber = HexColor('4d4b4e');
+Color colorIndicator = HexColor('f7db2d');
+Color colorTime = HexColor('a2a2a2');

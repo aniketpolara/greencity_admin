@@ -94,18 +94,21 @@ List<Map> facilities = [
     'image': 'assets/images/clubhouse.jpeg',
     'name': 'Club house',
     'price': '\$ 150',
+    'arrow': 'assets/images/right-arrow.png',
     'pageName': const ClubHouseScreen()
   },
   {
     'image': 'assets/images/hall.jpeg',
     'name': 'Banquet hall',
     'price': '\$ 221',
+    'arrow': 'assets/images/right-arrow.png',
     'pageName': const BanquetHall()
   },
   {
     'image': 'assets/images/pool.jpeg',
     'name': 'Swimming pool',
     'price': '\$ 155',
+    'arrow': 'assets/images/right-arrow.png',
     'pageName': const SwimmingPoolScreen()
   },
 ];
@@ -245,4 +248,28 @@ List<Map> banquetHallData = [
     'date': '15 December 2023',
     'time': '8:00 pm to 11:00 pm',
   }
+];
+
+List<Map> complainData = [
+  {
+    'ticketNo': '20',
+    'typeOfHelp': 'Kitchen Sink is not working',
+    'issue': 'Tap seems to be jammed',
+    'time': '4 hours ago',
+    'name': 'By Hemil Zalavadiya - A 502',
+  },
+  {
+    'ticketNo': '20',
+    'typeOfHelp': 'Garbage Accumulation Near main Gate',
+    'issue': 'The community bind need immediate clen up',
+    'time': '1 hours ago',
+    'name': 'By Aniket Polara - A 101',
+  },
+  {
+    'ticketNo': '20',
+    'typeOfHelp': 'Electric Generator',
+    'issue': 'aupply is not there for the block A ',
+    'time': '1 hours ago',
+    'name': 'By Bhakti Talaviya - A 1003',
+  },
 ];

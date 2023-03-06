@@ -20,7 +20,6 @@ class BanquetHall extends StatefulWidget {
 class _BanquetHallState extends State<BanquetHall> {
   @override
   Widget build(BuildContext context) {
-    bool showContainer = false;
     final screenHeight = MediaQuery.of(context).size.height;
     final screenWidth = MediaQuery.of(context).size.width;
 
@@ -155,6 +154,7 @@ class _BanquetHallState extends State<BanquetHall> {
                                     children: [
                                       animatedButton(
                                           borderRadius: 10,
+                                          selectedTextColor: black,
                                           backgroundColor:
                                               Colors.indigo.shade300,
                                           w: screenWidth / 6,

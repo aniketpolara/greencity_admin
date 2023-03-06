@@ -103,6 +103,8 @@ const String txtHintVehicleType = 'Vehicle Type';
 const String txtVehicleUpdateText = 'Update Vehicle Details';
 //complain
 const String txtComplain = 'Complain';
+String txtOpenIssues = 'Open Issues';
+String txtResolvedIssues = 'Resolved Issues';
 //guidelines
 const String txtRules = 'Guidelines';
 const String txtGuidelines = 'Guidelines';

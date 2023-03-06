@@ -6,7 +6,6 @@ import 'package:greencity/common/dropdown.dart';
 import 'package:greencity/common/text.dart';
 import 'package:greencity/common/textfields.dart';
 import 'package:greencity/screens/registration_page/registration_widget.dart';
-
 import 'package:greencity/utils/colors.dart';
 import 'package:greencity/utils/strings.dart';
 

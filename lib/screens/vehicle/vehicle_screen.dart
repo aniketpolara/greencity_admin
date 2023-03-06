@@ -58,7 +58,7 @@ class _VehicleXcreenState extends State<VehicleXcreen> {
               membercontainer(
                 h: MediaQuery.of(context).size.height / 3.5,
                 w: MediaQuery.of(context).size.width / 1.1,
-                marginbottom: 20,
+                marginbottom: 10,
                 margintop: 20,
                 paddingLeft: 12,
                 marginright: 1,

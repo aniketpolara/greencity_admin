@@ -168,6 +168,7 @@ class _SwimmingPoolScreenState extends State<SwimmingPoolScreen> {
                                     children: [
                                       animatedButton(
                                           borderRadius: 10,
+                                          selectedTextColor: black,
                                           backgroundColor:
                                               Colors.indigo.shade300,
                                           w: screenWidth / 6,

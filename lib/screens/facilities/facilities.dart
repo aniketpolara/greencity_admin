@@ -179,8 +179,9 @@ class _FacilitiesPageState extends State<FacilitiesPage> {
                                         facilities[index]['pageName']));
                           },
                           icon: const Icon(
-                            Icons.more_vert,
-                            size: 30,
+                            Icons.arrow_forward_ios_outlined,
+                            size: 25,
+                            // color: colorSelected,
                           ),
                         ),
                         title: text(
@@ -191,88 +192,6 @@ class _FacilitiesPageState extends State<FacilitiesPage> {
                 },
               ),
             ),
-            // membercontainer(
-            //     marginright: 20,
-            //     radiusBottomLeft: 15,
-            //     radiusBottomRight: 15,
-            //     radiusTopLeft: 15,
-            //     radiusTopRight: 15,
-            //     borderColor: Colors.grey,
-            //     color: colorGradiant1,
-            //h: 230,
-            //     h: 263,
-            //     child: Column(
-            //       children: [
-            //         const SizedBox(
-            //           height: 5,
-            //         ),
-            //         listtile(
-            //             leading: Container(
-            //               height: 50,
-            //               width: 50,
-            //               decoration: BoxDecoration(
-            //                 borderRadius: BorderRadius.circular(10),
-            // image: const DecorationImage(
-            //     image: AssetImage('assets/images/club1.png'),
-            //     fit: BoxFit.cover),
-            //               ),
-            //             ),
-            //             trailing: const Icon(
-            //               Icons.more_vert,
-            //               size: 30,
-            //             ),
-            //             title: text(
-            //                 text: 'Club house', fontWeight: FontWeight.w600),
-            //             subtitle: text(text: '\$ 150')),
-            //         const Divider(
-            //           color: Colors.grey,
-            //           indent: 15,
-            //           endIndent: 15,
-            //         ),
-            // const ListTile(),
-            //         listtile(
-            //             leading: Container(
-            //               height: 50,
-            //               width: 50,
-            //               decoration: BoxDecoration(
-            //                 borderRadius: BorderRadius.circular(10),
-            // image: const DecorationImage(
-            //     image: AssetImage('assets/images/hall1.jpg'),
-            //     fit: BoxFit.cover),
-            //               ),
-            //             ),
-            //             trailing: const Icon(
-            //               Icons.more_vert,
-            //               size: 30,
-            //             ),
-            //             title: text(
-            //                 text: 'Banquet hall', fontWeight: FontWeight.w600),
-            //             subtitle: text(text: '\$ 221')),
-            //         const Divider(
-            //           color: Colors.grey,
-            //           indent: 15,
-            //           endIndent: 15,
-            //         ),
-            //         listtile(
-            //             leading: Container(
-            //               height: 50,
-            //               width: 50,
-            //               decoration: BoxDecoration(
-            //                 borderRadius: BorderRadius.circular(10),
-            // image: const DecorationImage(
-            //     image: AssetImage('assets/images/pool1.jpg'),
-            //     fit: BoxFit.cover),
-            //               ),
-            //             ),
-            //             trailing: const Icon(
-            //               Icons.more_vert,
-            //               size: 30,
-            //             ),
-            //             title: text(
-            //                 text: 'Swimming pool', fontWeight: FontWeight.w600),
-            //             subtitle: text(text: '\$ 155')),
-            //       ],
-            //     )),
           ],
         ),
       ),
