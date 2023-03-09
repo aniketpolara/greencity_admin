@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "167147883994",
+    "project_id": "greencity-8bede",
+    "storage_bucket": "greencity-8bede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167147883994:android:92b49dcb7ec513609ac4e3",
+        "android_client_info": {
+          "package_name": "com.example.greencity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167147883994-dl4c6foagsdns5o1tseodqn4d33vlcpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greencity",
+            "certificate_hash": "89a0f9bf414af5a4f88483b4812b0ef793d0d5f0"
+          }
+        },
+        {
+          "client_id": "167147883994-p7g86hdqpluuurmm4a6smiqhnrit25h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnjzY6ZAOcD_E54K8fKJ76gr_Su6o13dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167147883994-p7g86hdqpluuurmm4a6smiqhnrit25h0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
